@@ -30,6 +30,17 @@ fetch("data.json", options)
 
         let slider = (document.querySelector(".slider_links").innerHTML +=
           sliderLink);
+
+        $(".grid_screen-container").css({
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+          gridGap: "10px",
+        });
+
+        // iterates the images nested in our data obj
+        // creatorsData[i].images.forEach((element) => {
+        //   $(".tempImg").attr("src", element.url);
+        // });
       }
     }
   })
