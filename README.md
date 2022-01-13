@@ -1,6 +1,6 @@
-# ZypeSliderAPI
+# ZypeSliderAPI : # API ZypeSliderAPI Design Schema (Swagger API Design)
 
-# API ZypeSliderAPI Design Schema (Swagger API Design)
+## Watch a live preview Here: https://chanqodev.github.io/zypeSliderAPI/
 
 ## RestFul API Create-Read-Update-Delete (CRUD) semantics
 
