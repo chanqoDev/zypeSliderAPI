@@ -1,5 +1,10 @@
 const options = { method: "GET", headers: { Accept: "application/json" } };
 
+// var promise = import("./config");
+
+// const url = "https://api.zype.com/videos?api_key=";
+// const api_key = promise.ZYPE_API_KEY;
+
 fetch("data.json", options)
   .then((response) => response.json())
   .then((response) => {
@@ -29,13 +34,3 @@ fetch("data.json", options)
     }
   })
   .catch((err) => console.error(err));
-
-//  document.getElementById("picture").src = data.hdurl;
-// document.getElementById("explanation").textContent = data.explanation;
-
-//   const displayData = (data) => {
-//     document.getElementById("title").textContent = data.title;
-//   document.getElementById("date").textContent = data.date;
-//   document.getElementById("picture").src = data.hdurl;
-//     document.getElementById("explanation").textContent = data.explanation;
-// };
