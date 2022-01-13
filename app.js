@@ -5,6 +5,21 @@ const options = { method: "GET", headers: { Accept: "application/json" } };
 // const url = "https://api.zype.com/videos?api_key=";
 // const api_key = promise.ZYPE_API_KEY;
 
+// const fetchZypeData = async () => {
+//   try {
+//     const response = await fetch(`${url}${api_key}`);
+//     const data = await response.json();
+//     console.log("ZypeData data", data);
+//     displayData(data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// fetchZypeData();
+
+// const displayData = (data) => {};
+
 fetch("data.json", options)
   .then((response) => response.json())
   .then((response) => {
