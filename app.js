@@ -1,9 +1,7 @@
 const options = { method: "GET", headers: { Accept: "application/json" } };
 
-// var promise = import("./config");
-
 // const url = "https://api.zype.com/videos?api_key=";
-// const api_key = promise.ZYPE_API_KEY;
+// const api_key = url.ZYPE_API_KEY;
 
 // const fetchZypeData = async () => {
 //   try {
